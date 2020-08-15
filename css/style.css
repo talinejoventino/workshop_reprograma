@@ -1,0 +1,118 @@
+/* seletor {
+    propriedade: valor;
+} */
+
+*{
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 10px;
+}
+body{
+    font-family: 'Raleway', Arial;
+    margin: 0;
+    background-color: lavender;
+}
+p{
+    font-size: 1.6rem;
+}
+.banner{
+    background: url(../img/l.jpg);
+    background-size: cover;
+    height: 90vh;
+    text-align: center;
+    color: white;
+    padding-top: 20rem;
+}
+
+.banner__titulo{
+    font-size: 5rem;
+}
+.banner__subtitulo{
+    font-size: 2.3rem;
+}
+
+.btn {
+    border-radius: 3rem;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.btn-branco{
+    color:  rgb(2, 6, 61);
+    background-color: white;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* SEÇÃO SOBRE */
+.sobre__titulo {
+    font-size: 4rem;
+    margin-left: 10rem;
+    color: rgb(2, 6, 61);
+}
+.sobre-descricao {
+    width: 40%;
+    margin-left: 10rem;
+    display: inline-block
+}
+ .sobre-habilidades {
+    width: 40%;
+    display: inline-block;
+    float: right;
+}
+.container{
+    max-width: 1080px ;
+    margin: 0 auto; 
+    margin-top: 10rem;
+}
+.sobre-descricao__destaque, .sobre-descricao__texto {
+    font-size: 2rem;
+    text-align: justify;
+}
+ .sobre-habilidades__titulo {
+    font-size: 2rem;
+ }
+.sobre-habilidades {
+    margin-left: 10rem;
+}
+
+.sobre-habilidades__lista {
+    padding-left: 1.2rem;
+    line-height: 2.5;
+    font-size: 1.8rem;
+}
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+.btn-roxo {
+    color: rgb(2, 6, 61);
+    border: 1px solid rgb(2, 6, 61);
+}
+
+/* seção fooder */
+.footer{
+    text-align:center;
+}
+.redes-sociais__link{
+    display: inline-block;
+    width: 20%;
+    background-color: rgb(2, 6, 61);
+    text-align:center;
+    color: white;
+    padding: 1rem 0;
+    margin-right: 15px;
+}
